@@ -14,11 +14,12 @@ int main(void)
 	{
 		for (ones = 0; ones <= 9; ones++)
 		{
-			putchar(tens + '0');
-			putchar(ones + '0');
+			puts(tens + '0');
+			puts(ones + '0');
 			if (!(tens == 9 && ones == 9))
 			{
-				putchar(", ");
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
