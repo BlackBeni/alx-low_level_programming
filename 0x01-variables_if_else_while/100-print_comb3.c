@@ -1,28 +1,34 @@
 #include <stdio.h>
 
 /**
-* main - Print numbers from 00 to 99
-*
-* Return: Always 0 (Success)
-*/
+ * main - Prints numbers between 00 to 99.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int tens;
-	int ones;
+	int i, e;
 
-	for (tens = 0; tens <= 9; tens++)
+	i = 48;
+	e = 48;
+
+	while (e < 58)
 	{
-		for (ones = 0; ones <= 9; ones++)
+		i = 48;
+		while (i < 58)
 		{
-			puts(tens + '0');
-			puts(ones + '0');
-			if (!(tens == 9 && ones == 9))
+			putchar(e);
+			putchar(i);
+			if (i == 57 && e == 57)
 			{
-				putchar(',');
-				putchar(' ');
+				break;
 			}
+			putchar(',');
+			putchar(' ');
+			i++;
 		}
+		e++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
