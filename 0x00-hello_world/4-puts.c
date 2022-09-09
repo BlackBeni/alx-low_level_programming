@@ -1,15 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
- * print
- * main - boff²
- * ret
+ * main - print 
+ *
+ * return what is write
  */
 int main(void)
 {
-
-	/*
-	 *description
-	 */
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
