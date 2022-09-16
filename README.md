@@ -10,3 +10,6 @@ Task0. _putchar_
 Project for C-Debugging
 Task0. Multiple mains
 
+Project for C-More functions, more nested
+Task0. isupper
+
