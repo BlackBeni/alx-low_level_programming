@@ -13,3 +13,6 @@ Task0. Multiple mains
 Project for C-More functions, more nested
 Task0. isupper
 
+Project for C-Pointers, arrays and strings
+Task0. 98 Battery st
+
