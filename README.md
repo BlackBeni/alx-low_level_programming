@@ -16,3 +16,6 @@ Task0. isupper
 Project for C-Pointers, arrays and strings
 Task0. 98 Battery st
 
+Project for C-More pointers, arrays and strings
+Task0. strcat
+
