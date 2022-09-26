@@ -19,3 +19,7 @@ Task0. 98 Battery st
 Project for C-More pointers, arrays and strings
 Task0. strcat
 
+Project for C-Even more pointers, arrays and strings
+Task0. memset
+
+
