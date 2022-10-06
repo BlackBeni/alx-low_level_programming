@@ -28,7 +28,9 @@ Task0. She locked away a secret, deep inside herself, something she once knew to
 Project for C-Static libraries
 Task0. A library is not a luxury but one of the necessities of life
 
+Project for C-argc, argv
+Task0. It ain't what they call you, it's what you answer to
 
-
-
+Project for C-malloc, free
+Task0. Float like a butterfly, sting like a bee
 
