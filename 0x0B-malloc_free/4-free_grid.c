@@ -1,43 +1,20 @@
 #include "main.h"
+#include <stdlib.h>
 /**
- * alloc_grid - allocates a grid, make space and free space
- * @width: takes in width of grid
- * @height: height of grid
- * Return: grid with freed spaces
+ * free_grid - frees the memory allocate for the grid
+ * created by alloc_grid()
+ * @grid: grid to free
+ * @height: height of the grid
  */
+void free_grid(int **grid, int height)
+{
+	int i;
 
-int **alloc_grid(int width, int height)
-{
-/*Declaring variables*/
-int **grid;
-int i, j;
+	if (grid == NULL || height == 0)
+		return;
 
-if (width <= 0 || height <= 0)
-{
-return (NULL);
-}
+	for (i = 0; i < height; i++)
+		free(grid[i]);
 
-grid = malloc(sizeof(int *) * height); /*malloc*/
-
-if (grid == NULL)
-{
-return (NULL);
-}
-
-for (i = 0; i < height; i++)
-{
-grid[i] = malloc(sizeof(int) * width);
-if (grid[i] == NULL)
-{
-for (i = i - 1; i >= 0; i--)
-{
-free(grid[i]);
-}
-free(grid);
-return (NULL);
-}
-}
-for (i = 0; j < width; j++)
-grid[i][j] = 0;
-return (grid);
+	free(grid);
 }
