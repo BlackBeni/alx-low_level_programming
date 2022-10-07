@@ -34,3 +34,7 @@ Task0. It ain't what they call you, it's what you answer to
 Project for C-malloc, free
 Task0. Float like a butterfly, sting like a bee
 
+Project for C-More malloc, free
+Task0. Trust no one
+
+
