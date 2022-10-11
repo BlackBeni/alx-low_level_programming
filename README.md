@@ -37,4 +37,7 @@ Task0. Float like a butterfly, sting like a bee
 Project for C-More malloc, free
 Task0. Trust no one
 
+Project for C-Structures, typedef
+Task0. Poppy 
+
 
