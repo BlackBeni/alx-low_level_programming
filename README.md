@@ -46,4 +46,7 @@ Task0. Object-like Macro
 Project for C-Function pointers
 Task0. What's my name
 
+Project for C-Variadic functions
+Task0. Beauty is variable, ugliness is constant 
+
  
