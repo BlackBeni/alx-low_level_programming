@@ -47,6 +47,9 @@ Project for C-Function pointers
 Task0. What's my name
 
 Project for C-Variadic functions
-Task0. Beauty is variable, ugliness is constant 
-
+Task0. Beauty is variable, ugliness is constant
  
+Project for C-Singly linnked lists 
+Task0. Print list 
+
+
